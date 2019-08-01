@@ -1,2 +1,2 @@
 # GraphQL Essentials
-A sample project dedicated to exploring the graphql ecosystem
+A sample project dedicated to exploring GraphQL as a query language
