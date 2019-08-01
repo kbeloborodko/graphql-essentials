@@ -19,6 +19,8 @@
   "homepage": "https://github.com/kbeloborodko/graphql-essentials#readme",
   "dependencies": {
     "express": "^4.17.1",
+    "express-graphql": "^0.9.0",
+    "graphql": "^14.4.2",
     "nodemon": "^1.19.1"
   },
   "devDependencies": {
