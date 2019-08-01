@@ -4,16 +4,31 @@
   "description": "A sample project dedicated to exploring GraphQL as a query language",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon ./index.js --exec babel-node"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/kbeloborodko/graphql-essentials.git"
   },
-  "author": "kbeloborodko@gmail.com",
+  "author": "Kyrylo Biloborodko",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/kbeloborodko/graphql-essentials/issues"
   },
-  "homepage": "https://github.com/kbeloborodko/graphql-essentials#readme"
+  "homepage": "https://github.com/kbeloborodko/graphql-essentials#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^1.19.1"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-stage-0": "^6.24.1"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "pretty-quick --staged"
+    }
+  }
 }
